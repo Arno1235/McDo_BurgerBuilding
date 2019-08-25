@@ -11,11 +11,13 @@ def Mouse_End():
 
 def Swipe(height):
     pyautogui.moveTo(1065, height)
-    pyautogui.dragTo(600, height, 0.1, button='left')
+    pyautogui.dragTo(600, height, 0.12, button='left')
     
 def Swipe1():
     pyautogui.moveTo(928, 83)
-    pyautogui.dragTo(500, 83, 0.1, button='left')
+    pyautogui.dragTo(500, 83, 0.11, button='left')
+    #Die 0.11 is de tijd in sec dat die swipe duurt, als ge sneller wilt gaan kunt ge dit dus aanpassen.
+    #Maar als ik hem sneller zet werkt het niet meer.
     
 
 if __name__ == "__main__":
@@ -25,7 +27,7 @@ if __name__ == "__main__":
     time.sleep(10.1)
     Mouse_Start()
     Mouse_Start()
-    time.sleep(0.7)
+    time.sleep(0.71)
     
     Swipe1()
     Swipe(183)
@@ -40,8 +42,8 @@ if __name__ == "__main__":
     
     Swipe(644)
     Swipe(735)
-    Swipe(819)
-    Swipe(819)
+    Swipe(830)
+    Swipe(830)
     Swipe(920)
     Swipe(1014)
     Swipe(1014)
