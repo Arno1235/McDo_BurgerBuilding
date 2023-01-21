@@ -1,5 +1,3 @@
-*discontinued*
-
 # McDonalds
 
-Program that plays McDonalds burger building game
+Program that plays the McDonalds Burger Building game
